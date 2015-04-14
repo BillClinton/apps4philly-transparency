@@ -1,5 +1,5 @@
 <?
-/*
+/**
  * Simple script used to clean the contract data csv files
  */
 if (defined('STDIN')) {
