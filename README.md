@@ -4,7 +4,7 @@ One Stop Transparency Shop was an idea submitted for the Apps for Philly Democra
 
 While the city contract data was readily available and in a convenient format, the same could not be said for the campaign finance records.  The data was scattered across many files in a multi-level directory structure.  We found one zip file that purported to be a collation of all this data, but there were many formatting errors in this file which made a full valid import impossible in the available time.
 
-There is currently a project from CfA Philly Brigade that aims to clean up the campaign finance data and make it more acessible 
+There is currently a project from CfA Philly Brigade that aims to clean up the campaign finance data and make it more accessible. 
 
 ## Data links
 
