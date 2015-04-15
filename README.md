@@ -20,6 +20,20 @@ There is currently a project from CfA Philly Brigade that aims to clean up the c
 
    Three tables were created to hold the available data.  Tables were created for Professional Services and Commodity Contract data and for campaign finance data.  A relation table was also created in an attempt to link the contract tables with the campaign finance table.
 
-Table creation SQL can be found in db/create.sql
-Import scripts can be found in db/import.sql
+ - Table creation SQL can be found in db/create.sql
+ - Import scripts can be found in db/import.sql
+
+## API/Visualization
+
+   A simple API was created to respond with data illustrating connections between the contracts tables and the campaign finance table.  The query used in this API is located in db/query.sql
+
+   A simple pie graph was created using ExtJS. For convenience data from the API was pasted inline.  Code for this graph is in js/Graph.js
+
+## Conclusions
+
+   The implementation of this project encountered several obstacles.  First of all, the campaign finance data was not in a format that was easily accessible or reliable. Secondly, even if the campaign finance data is collected and put in an easily accessible format, there is no real key to connect campaign finance entries with city contract data.  A "like" query can be performed linking the entity names, but while this could give a general idea of trends, the results could not be considered accurate.
+
+
+
+
 
